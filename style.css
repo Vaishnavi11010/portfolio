@@ -204,8 +204,9 @@ h1{
         min-height:50px;
         font-size:13px;
     }
+}
 
-    /* Center Open Animation */
+/* Center Open Animation */
 
 @keyframes centerOpen{
 
@@ -224,5 +225,4 @@ h1{
         opacity:1;
     }
 
-}
 }
