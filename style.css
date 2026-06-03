@@ -37,6 +37,10 @@ body{
     margin:auto;
     text-align:center;
     color:white;
+
+    animation:centerOpen 1.4s ease-out forwards;
+    transform:scale(0);
+    opacity:0;
 }
 
 /* Circle */
@@ -200,4 +204,25 @@ h1{
         min-height:50px;
         font-size:13px;
     }
+
+    /* Center Open Animation */
+
+@keyframes centerOpen{
+
+    0%{
+        transform:scale(0);
+        opacity:0;
+    }
+
+    70%{
+        transform:scale(1.05);
+        opacity:1;
+    }
+
+    100%{
+        transform:scale(1);
+        opacity:1;
+    }
+
+}
 }
